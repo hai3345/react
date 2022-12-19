@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './MyComponent'
 /*
 function App() {
   return (
@@ -23,17 +24,8 @@ function App() {
 }*/
 
 function App(){
- const name = "리액트"
-  return (
-    <>
-    {name === "리액트"?(
-      <h1>리액트 안녕!</h1>
-      ):(
-      <h2>2잘 작동하니?</h2>
-      )}
-   
-    </>
-    );
+
+  return <MyComponent name = "React"/>
 }
 
 export default App;
