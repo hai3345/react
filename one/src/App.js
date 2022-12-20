@@ -22,10 +22,19 @@ function App() {
     </div>
   );
 }*/
-
+/*
 function App(){
 
   return <MyComponent name = "React"/>
+}
+
+export default App;
+*/
+
+//proptypes
+function App(){
+
+  return <MyComponent name = "React22"/>
 }
 
 export default App;
