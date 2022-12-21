@@ -31,10 +31,14 @@ function App(){
 export default App;
 */
 
-//proptypes
+/*
 function App(){
 
-  return <MyComponent name = "React22"/>
+  return <MyComponent name ="ParentValue">ChildrenValue</MyComponent>
+}*/
+
+const App = () =>{
+  return <MyComponent name="ㄹㄹㄹㄹ">리액트</MyComponent>;
 }
 
 export default App;
