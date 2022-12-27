@@ -1,6 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import MyComponent from './MyComponent'
+import Say from './Say'
+import EventPracitce from './EventPractice'
+import ValidationSample from './ValidationSample';
+import RefSample from './RefSample';
+import './ValidationSample.css';
+import { Component } from 'react';
+import ScrollBox from './ScrollBox';
+
+
 /*
 function App() {
   return (
@@ -37,8 +46,35 @@ function App(){
   return <MyComponent name ="ParentValue">ChildrenValue</MyComponent>
 }*/
 
+/*
 const App = () =>{
   return <MyComponent name="ㄹㄹㄹㄹ">리액트</MyComponent>;
 }
+*/
+/*
+const App = () => {
+  
+  return <Say />;
+
+};*/
+
+//5.1 ref
+/*
+const App=() => {
+  return <ValidationSample />
+}*/
+
+// 5.3 컴포넌트 파일 생성
+
+class App extends Component{
+  render() {
+    return (
+      <div>
+        <ScrollBox />
+      </div>
+    )
+  }
+}
+
 
 export default App;
