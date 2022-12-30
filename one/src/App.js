@@ -8,7 +8,7 @@ import RefSample from './RefSample';
 import './ValidationSample.css';
 import { Component } from 'react';
 import ScrollBox from './ScrollBox';
-
+import IterationSample from './iterationSample';
 
 /*
 function App() {
@@ -65,12 +65,24 @@ const App=() => {
 }*/
 
 // 5.3 컴포넌트 파일 생성
-
+/*
 class App extends Component{
   render() {
     return (
       <div>
         <ScrollBox />
+      </div>
+    )
+  }
+}*/
+
+// 6.2 
+
+class App extends Component{
+  render() {
+    return (
+      <div>
+        <IterationSample />
       </div>
     )
   }
