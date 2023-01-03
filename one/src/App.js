@@ -9,7 +9,7 @@ import './ValidationSample.css';
 import { Component } from 'react';
 import ScrollBox from './ScrollBox';
 import IterationSample from './iterationSample';
-
+import Info from './hooks/info'
 /*
 function App() {
   return (
@@ -77,7 +77,7 @@ class App extends Component{
 }*/
 
 // 6.2 
-
+/*
 class App extends Component{
   render() {
     return (
@@ -86,7 +86,11 @@ class App extends Component{
       </div>
     )
   }
-}
+}*/
+
+const App = () => {
+  return< Info />;
+};
 
 
 export default App;
