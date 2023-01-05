@@ -10,6 +10,8 @@ import { Component } from 'react';
 import ScrollBox from './ScrollBox';
 import IterationSample from './iterationSample';
 import Info from './hooks/info'
+import Counter from './hooks/info2'
+
 /*
 function App() {
   return (
@@ -89,7 +91,7 @@ class App extends Component{
 }*/
 
 const App = () => {
-  return< Info />;
+  return< Counter />;
 };
 
 
