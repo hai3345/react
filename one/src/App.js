@@ -11,7 +11,7 @@ import ScrollBox from './ScrollBox';
 import IterationSample from './iterationSample';
 import Info from './hooks/info'
 import Counter from './hooks/info2'
-
+import Average from './hooks/Average'
 /*
 function App() {
   return (
@@ -91,7 +91,7 @@ class App extends Component{
 }*/
 
 const App = () => {
-  return< Counter />;
+  return< Average />;
 };
 
 
