@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "prettier": "^2.8.2"
+  },
+
+  "scripts":{
+    "start": "node index.js"
+  }
+}
