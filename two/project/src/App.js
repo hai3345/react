@@ -1,6 +1,15 @@
+import TodoTemplate from "./components/TodoTemplate";
+import TodoInsert from "./components/TodoInsert";
+import TodoList from "./components/TodoList"
+
 const App = () => {
 
-    return <div>Todo 몌ㅔdmf aksemfwk</div>
+    return(
+        <TodoTemplate>
+            <TodoInsert />
+            <TodoList />
+        </TodoTemplate>
+    );
 };
 
 export default App;

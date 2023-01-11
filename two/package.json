@@ -2,8 +2,10 @@
   "devDependencies": {
     "prettier": "^2.8.2"
   },
-
-  "scripts":{
+  "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "sass": "^1.57.1"
   }
 }
