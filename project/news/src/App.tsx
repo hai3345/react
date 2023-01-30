@@ -3,6 +3,9 @@ import NewsList from './components/NewsList';
 import Categories from './components/Categories';
 
 
+
+
+//asdfsdf
 const App = () => {
   const [ category, setCategory ] = useState<any[]>([]);
   const onSelect = useCallback(category => setCategory(category),[]);  
