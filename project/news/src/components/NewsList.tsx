@@ -56,7 +56,7 @@ const NewsList = () => {
     //articles 값이 유효할 때
     return(
         <NewsListBlock>
-            {articles.map(article => (
+            {articles.map((article:any) => (
                 <NewsItem key={article.url} article={article} />
             ))}
         </NewsListBlock>

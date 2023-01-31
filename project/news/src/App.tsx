@@ -5,13 +5,17 @@ import Categories from './components/Categories';
 
 
 
-//asdfsdf
+export interface Iprops{
+  category: string;
+}
+
 const App = () => {
-  const [ category, setCategory ] = useState<any[]>([]);
-  const onSelect = useCallback(category => setCategory(category),[]);  
+  const [category, setCategory] =  useState<Iprops>();
+  const onSelect = useCallback((category: Iprops): void => setCategory(category), []) 
+
   return(
     <>
-      <Categories category={category} onSelect={onSelect} />
+      <Categories category ={category} onSelect={onSelect} />
       <NewsList category={category} />
     </>
   )
