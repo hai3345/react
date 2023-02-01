@@ -22,11 +22,16 @@ const sampleArticle = {
     url: 'https://google.com',
     urlToImage: 'https://via.placeholder.com/160',
 };
-*/
-const NewsList = () => {
-    const [articles, setArticles] = useState(null);
-    const [loading, setLoading] = useState(false);
 
+*/
+
+interface Iprops{
+    category: any;
+}
+const NewsList = ({ category }:Iprops) => {
+    const [articles, setArticles] = useState<any[]>([]);
+    const [loading, setLoading] = useState(false);
+    
     useEffect(() => {
         const fetchData = async () => {
             setLoading(true);

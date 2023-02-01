@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
- 
+
 const categories = [
 
     { 
@@ -77,8 +77,8 @@ const Categories = ([ onSelect, category ]: any) => {
             {categories.map( (c,index) =>(
                 <Category 
                     key={c.name}
-                    active={category === c.name}
-                    onclick={() => onSelect(c.name)}
+                    /*active={category === c.name}
+                    onclick={() => onSelect(c.name)}*/
                 >{c.text}</Category>
             )
             )}
