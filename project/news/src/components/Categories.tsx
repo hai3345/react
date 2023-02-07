@@ -71,7 +71,7 @@ const Category = styled.div`
     }
 `;
 
-const Categories = ([ onSelect, category ]: any) => {
+const Categories = ({ onSelect, category }: any) => {
     return(
         <CategoriesBlock>
             {categories.map( (c,index) =>(
