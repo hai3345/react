@@ -70,7 +70,7 @@ const Category = styled.div`
         margin-left: 1rem;
     }
 `;
-
+/*asdf*/
 const Categories = ({ onSelect, category }: any) => {
     return(
         <CategoriesBlock>
